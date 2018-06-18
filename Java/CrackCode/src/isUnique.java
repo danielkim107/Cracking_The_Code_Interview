@@ -16,6 +16,7 @@ public class isUnique {
 	 * @param str
 	 * @return boolean of whether str has all unique characters
 	 */
+	
 	public static boolean isUniqueHash(String str) {
 		Hashtable<Character, Integer> ht = new Hashtable<>();
 		boolean answer = false;
