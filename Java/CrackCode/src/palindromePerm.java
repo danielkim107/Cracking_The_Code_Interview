@@ -15,7 +15,8 @@ import java.util.Set;
 public class palindromePerm {
 	
 	/**
-	 * 
+	 * This function returns a boolean statement of whether the given input
+	 * is a permutation palindrome of another string.
 	 * @param String input
 	 * @return boolean whether the input is a palindrome permutation
 	 */
