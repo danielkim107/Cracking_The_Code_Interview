@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Given two strings, write a method to decide if one is 
  * a permutation of the other.
  * 
- * @author danielkim107
+ * @author Jung Soo (Daniel) Kim
  */
 
 public class checkPerm {

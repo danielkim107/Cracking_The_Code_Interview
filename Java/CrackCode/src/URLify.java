@@ -7,7 +7,7 @@
  * additional characters, and that you are given the "true" length of the 
  * string. (If implementing in Java, please use a char[] array).
  * 
- * @author danielkim107
+ * @author Jung Soo (Daniel) Kim
  */
 
 public class URLify {
