@@ -18,7 +18,7 @@ public class checkPerm {
 	 * @return boolean of whether the strings are permutations of each other.
 	 */
 	
-	public static boolean checkPerm(String str1, String str2) {
+	public static boolean checkPermTest(String str1, String str2) {
 		
 		char str1Arr[] = str1.toCharArray();
 		char str2Arr[] = str2.toCharArray();
@@ -39,11 +39,11 @@ public class checkPerm {
 		return false;
 	}
 	
-	public static void main(String str[]) {
+	public static void main(String[] args) {
 		String str1 = "14ahfAdi";
 		String str2 = "adi1FhA4";
 		
-		boolean ans = checkPerm(str1, str2);
+		boolean ans = checkPermTest(str1, str2);
 		
 		System.out.println(ans);
 	}

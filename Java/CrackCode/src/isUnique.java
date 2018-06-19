@@ -34,7 +34,7 @@ public class isUnique {
 		
 	}
 	
-	public static void main(String str[]) {
+	public static void main(String[] args) {
 		String test = "ababa";
 		boolean ans = isUniqueHash(test);
 		
