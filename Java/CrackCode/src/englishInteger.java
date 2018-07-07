@@ -178,7 +178,10 @@ public class englishInteger {
 	}
 	public static void main(String[] args) {
 		int test = 2013456774;
+		long startTime = System.nanoTime();
 		String answer = intToEnglish(test);
+		long endTime = System.nanoTime();
+		System.out.println("Took "+(endTime - startTime) + " ns");
 		System.out.println(answer);
 
 	}
